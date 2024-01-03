@@ -7,7 +7,7 @@ name: big-bear-traccar
 services:
   # Service name: app
   app:
-    image: traccar/traccar:latest # Specifies the docker image to use for this service. Using the latest version of the traccar image.
+    image: traccar/traccar:5.10-ubuntu # Specifies the docker image to use for this service. Using the latest version of the traccar image.
     container_name: traccar # Name of the container that will be created
     hostname: traccar # Hostname of the container
     restart: unless-stopped # Restart policy. The container will restart unless it's explicitly stopped.
@@ -18,8 +18,8 @@ services:
       - "5000-5150:5000-5150/udp" # Maps ports range 5000-5150 on the host to the same range in the container for UDP
 
     volumes: # Defines volume mounts for the container
-      - "/DATA/AppData/traccar/logs:/opt/traccar/logs:rw" # Mounts the logs directory from the host to the container with read and write permissions
-      - "/DATA/AppData/traccar/traccar.xml:/opt/traccar/conf/traccar.xml:ro" # Mounts the traccar.xml config file from the host to the container with read-only permissions
+      - "/DATA/AppData/$AppID/logs:/opt/traccar/logs:rw" # Mounts the logs directory from the host to the container with read and write permissions
+      - "/DATA/AppData/$AppID/traccar.xml:/opt/traccar/conf/traccar.xml:ro" # Mounts the traccar.xml config file from the host to the container with read-only permissions
 
     x-casaos: # CasaOS specific configuration
       volumes:

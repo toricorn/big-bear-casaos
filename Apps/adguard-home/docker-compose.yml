@@ -10,7 +10,7 @@ services:
     # Name of the container
     container_name: adguard-home
     # Docker image to be used
-    image: adguard/adguardhome:v0.107.39
+    image: adguard/adguardhome:v0.107.43
     # Resources for the service
     deploy:
       resources:
@@ -26,6 +26,11 @@ services:
       - 53:53/tcp # Map TCP port 53
       - 53:53/udp # Map UDP port 53
       - 8080:80 # Map port 80
+
+    # Define the networks
+    networks:
+      # Specify the adguard-home-network
+      - adguard-home-network
 
     # CasaOS specific configuration for the app service
     x-casaos:
@@ -43,6 +48,12 @@ services:
         - container: "80"
           description:
             en_us: "Container Port: 80"
+
+# Networks used by the application
+networks:
+  # Define the network for AdGuard Home
+  adguard-home-network:
+    driver: bridge
 
 # CasaOS global application configuration
 x-casaos:

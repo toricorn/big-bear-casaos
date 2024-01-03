@@ -2,6 +2,12 @@
 
 This repository contains the BigBearCasaOS App Store. This app store is a community app store that is not maintained by the CasaOS team. It is maintained by BigBearTechWorld and the BigBearCommunity.
 
+## Need Help or have an issue?
+
+Please post in the [BigBearCommunity](https://community.bigbeartechworld.com/c/big-bear-casas/10) with your issue. Try to be detailed in your issue.
+
+If you have a feature request please post in the [BigBearCommunity](https://community.bigbeartechworld.com/c/big-bear-casaos/bigbearcasaos-suggestions/40).
+
 ## App Store URL
 
 ```text
@@ -10,7 +16,7 @@ https://github.com/bigbeartechworld/big-bear-casaos/archive/refs/heads/master.zi
 
 ## App Store Suggestions
 
-If you have a suggestion for an app, please post in our suggestion discord on the [BigBearCommunity](https://discord.gg/ykwA7wsnP8) server.
+If you have a suggestion for an app, please post in the [BigBearCommunity](https://community.bigbeartechworld.com) server.
 
 # Support The Project
 
@@ -18,46 +24,71 @@ If you have a suggestion for an app, please post in our suggestion discord on th
 
 ## Apps
 
-| App Name                 | Version        | Video                                         |
-| ------------------------ | -------------- | --------------------------------------------- |
-| 2fauth                   | 4.2.3          |                                               |
-| Actual Budget            | 23.10.0        |                                               |
-| AdGuard Home             | v0.107.39      |                                               |
-| Apache Guacamole         | latest         | [YouTube Video](https://youtu.be/6cu0kfP50Jg) |
-| Baserow                  | 1.20.0         |                                               |
-| cAdvisor                 | latest         |                                               |
-| Code Server              | latest         |                                               |
-| CodeX Docs               | v2.1           |                                               |
-| Dashdot                  | latest         |                                               |
-| Dashy                    | 2.1.1          |                                               |
-| Flame                    | multiarch2.3.1 | [YouTube Video](https://youtu.be/p_P_jKmJRz8) |
-| Focalboard               | 7.11.4         |                                               |
-| Ghost                    | 5.69.0-alpine  |                                               |
-| Glances                  | 3.4.0.3-full   |                                               |
-| Gluetun                  | latest         |                                               |
-| Gotify                   | 2.4.0          |                                               |
-| Homer                    | latest         |                                               |
-| Homarr                   | latest         |                                               |
-| Homepage                 | latest         |                                               |
-| Immich                   | v1.82.1        |                                               |
-| Mailpit                  | v1.7           |                                               |
-| MIND                     | latest         |                                               |
-| Mumble Server            | v1.4.230-6     |                                               |
-| Node-RED                 | 3.1.0          |                                               |
-| Ntfy.sh                  | latest         | [YouTube Video](https://youtu.be/wSWhtSNwTd8) |
-| OnlyOffice               | latest         |                                               |
-| Pingvin Share            | latest         |                                               |
-| Portainer Agent          | 2.19.1         |                                               |
-| Pterodactyl Panel        | v1.11.5        |                                               |
-| Pterodactyl Wings        | v1.11.8        |                                               |
-| Python Matter Server     | stable         |                                               |
-| Scrypted                 | latest         |                                               |
-| Speedtest Tracker        | v0.13.1        |                                               |
-| TP-Link Omada Controller | 5.9            |                                               |
-| Traccar                  | latest         |                                               |
-| Umami                    | latest         | [YouTube Video](https://youtu.be/4DEF5fNf8hU) |
-| What's Up Docker         | latest         |                                               |
-| WordPress                | latest         |                                               |
+| Application              | Docker Image                                     | Version                  | YouTube Video                                                                                                       | Docs                                                                                           |
+| ------------------------ | ------------------------------------------------ | ------------------------ | ------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- |
+| 2fauth                   | 2fauth/2fauth                                    | 5.0.2                    | [YouTube Video](https://youtu.be/yCnjxSryD_U)                                                                       |                                                                                                |
+| Actual Budget            | actualbudget/actual-server                       | 23.12.1                  |                                                                                                                     |                                                                                                |
+| AdGuard Home             | adguard/adguardhome                              | v0.107.43                | [YouTube Video](https://youtu.be/6cu0kfP50Jg)                                                                       |                                                                                                |
+| Apache Guacamole         | guacamole/guacamole                              | 1.5.4                    | [YouTube Video](https://youtu.be/6cu0kfP50Jg)                                                                       |                                                                                                |
+| Appsmith                 | appsmith/appsmith-ee                             | v1.9.57                  |                                                                                                                     |                                                                                                |
+| Baserow                  | baserow/baserow                                  | 1.22.1                   |                                                                                                                     |                                                                                                |
+| Brave                    | kasmweb/brave                                    | 1.14.0-rolling           |                                                                                                                     |                                                                                                |
+| cAdvisor                 | gcr.io/cadvisor/cadvisor                         | v0.47.2                  |                                                                                                                     |                                                                                                |
+| Code Server              | linuxserver/code-server                          | 4.20.0                   | [YouTube Video](https://youtu.be/aiYcwXDfgE8)                                                                       |                                                                                                |
+| CodeX Docs               | ghcr.io/codex-team/codex.docs                    | v2.1                     | [YouTube Video](https://youtu.be/dKm2VJwam24)                                                                       |                                                                                                |
+| Dashdot                  | mauricenino/dashdot                              | 5.2.3                    | [YouTube Video](https://youtu.be/if_fyuX_5fU)                                                                       |                                                                                                |
+| Dashy                    | lissy93/dashy                                    | 2.1.1                    |                                                                                                                     |                                                                                                |
+| Dockge                   | louislam/dockge                                  | 1.3.5                    | [YouTube Video](https://youtu.be/8Z6psh-t5iU)                                                                       |                                                                                                |
+| Dozzle                   | amir20/dozzle                                    | v6.0.1                   |                                                                                                                     |
+| Firefox                  | kasmweb/firefox                                  | 1.14.0-rolling           |                                                                                                                     |
+| Flame                    | pawelmalak/flame                                 | multiarch2.3.1           | [YouTube Video](https://youtu.be/p_P_jKmJRz8)                                                                       |                                                                                                |
+| Focalboard               | mattermost/focalboard                            | 7.11.4                   |                                                                                                                     |                                                                                                |
+| Ghost                    | ghost                                            | 5.75.2-alpine            | [YouTube Video](https://youtu.be/oJZK9vH4W4Y)                                                                       |                                                                                                |
+| Gladys Assistant         | gladysassistant/gladys                           | v4.33.0                  |                                                                                                                     |
+| Glances                  | nicolargo/glances                                | 3.4.0.3-full             | [YouTube Video](https://youtu.be/nwsVJ0QB0sM)                                                                       |
+| Gluetun                  | qmcgaw/gluetun                                   | v3.37.0                  |                                                                                                                     | [Docs](https://community.bigbeartechworld.com/t/added-gluetun-to-big-bear-casaos/175)          |
+| Gotify                   | gotify/server                                    | 2.4.0                    |                                                                                                                     |
+| Homarr                   | ghcr.io/ajnart/homarr                            | 0.14.3                   | [YouTube Video](https://youtu.be/H4rzZNO47Uk)                                                                       |
+| Home Assistant           | ghcr.io/home-assistant/home-assistant            | 2023.12.4                |                                                                                                                     |
+| Homer                    | b4bz/homer                                       | v23.10.1                 |                                                                                                                     |
+| Homepage                 | ghcr.io/gethomepage/homepage                     | v0.8.4                   |                                                                                                                     |
+| Immich                   | ghcr.io/immich-app/immich-server                 | v1.91.4                  |                                                                                                                     |
+| IT Tools                 | corentinth/it-tools                              | 2023.11.2-7d94e11        | [YouTube Video](https://youtu.be/MlGypCrUJug)                                                                       | [Docs]                                                                                         |
+| Jellyseerr               | fallenbagel/jellyseerr                           | 1.7.0                    |                                                                                                                     |
+| kasm                     | linuxserver/kasm                                 | 1.120.20221218                   |                                                                                                                     |
+| Lan Cache                | lancachenet/monolithic                           | latest                   |                                                                                                                     |
+| Mailpit                  | axllent/mailpit                                  | v1.12                    | [YouTube Video](https://youtu.be/2MY3S6csrVw)                                                                       |
+| MIND                     | mrcas/mind                                       | v1.3.3                   |                                                                                                                     |
+| Mumble Server            | mumblevoip/mumble-server                         | v1.4.230-6               |                                                                                                                     |
+| MySpeed                  | germannewsmaker/myspeed                          | 1.0.8                    | [YouTube Video](https://youtu.be/7roj87Fytz0)                                                                       |
+| n8n                      | n8nio/n8n                                        | 1.22.3                   |                                                                                                                     |
+| Nextcloud                | nextcloud                                        | 28.0.1-apache           |                                                                                                                     |
+| NocoDB                   | nocodb/nocodb                                    | 0.203.2                  | [YouTube Video](https://youtu.be/mO2YzWpBu4o)                                                                       | [Docs](https://community.bigbeartechworld.com/t/added-nocodb-to-big-bear-casaos/177)           |
+| Node-RED                 | nodered/node-red                                 | 3.1.3                    |                                                                                                                     |
+| Ntfy.sh                  | binwiederhier/ntfy                               | v2.8.0                   | [YouTube Video](https://youtu.be/wSWhtSNwTd8)                                                                       |
+| Obisidian Livesync       | couchdb                                          | 3.3.3                    |                                                                                                                     |
+| OctoPrint                | octoprint/octoprint                              | 1.9.3                    |                                                                                                                     |
+| OnlyOffice               | onlyoffice/documentserver                        | 7.5.1                    |                                                                                                                     |
+| PHPMyAdmin               | phpmyadmin/phpmyadmin                            | 5.2.1-fpm-alpine         |                                                                                                                     |
+| Pihole                   | pihole/pihole                                    | 2023.11.0                | [YouTube Video](https://youtu.be/FcMF1sYacqk)                                                                       |                                                                                                |
+| Pihole and Unbound       | bigbeartechworld/big-bear-pihole-unbound         | 2023.11.0                | [YouTube Video](https://youtu.be/ByFSgnnUuBI)                                                                       | [Docs](https://community.bigbeartechworld.com/t/added-pihole-and-unbound-to-bigbearcasaos/191) |
+| Pingvin Share            | stonith404/pingvin-share                         | v0.21.3                  | [YouTube Video](https://youtu.be/SRJUS7h1vhU)                                                                       |
+| Playitgg                 | dysta/playitgg                                   | 1.1.0                    |                                                                                                                     |
+| Portainer Agent          | portainer/agent                                  | 2.19.4                   |                                                                                                                     |
+| Pterodactyl Panel        | ghcr.io/pterodactyl/panel                        | v1.11.5                  |                                                                                                                     |
+| Pterodactyl Wings        | ghcr.io/pterodactyl/wings                        | v1.11.8                  |                                                                                                                     |
+| Python Matter Server     | ghcr.io/home-assistant-libs/python-matter-server | 5.1.3                    |                                                                                                                     |
+| Rocket.Chat              | rocket.chat                                      | 6.4.2                    |                                                                                                                     |
+| RomM                     | zurdi15/romm                                     | dev-2.2.0-rc.1           |                                                                                                                     |
+| Scrypted                 | koush/scrypted                                   | 18-jammy-full.s6-v0.72.0 | [YouTube Video](https://community.bigbeartechworld.com/t/how-to-install-scrypted-on-casaos-using-bigbearcasaos/155) |
+| Speedtest Tracker        | ghcr.io/alexjustesen/speedtest-tracker           | v0.14.2                  | [YouTube Video](https://youtu.be/TLjS8xNNwis)                                                                       |                                                                                                |
+| TP-Link Omada Controller | mbentley/omada-controller                        | 5.13                     |                                                                                                                     |
+| Traccar                  | traccar/traccar                                  | 5.10-ubuntu              | [YouTube Video](https://youtu.be/zn_tu9r6g-w)                                                                       |
+| Umami                    | ghcr.io/umami-software/umami                     | postgresql-latest        | [YouTube Video](https://youtu.be/4DEF5fNf8hU)                                                                       |
+| Uptime Kuma              | louislam/uptime-kuma                             | 1                        | [YouTube Video](https://youtu.be/Why5NU_Wafw)                                                                       |                                                                                                |
+| Vikunja                  | vikunja/frontend                                 | 0.22.0                   |                                                                                                                     |
+| What's Up Docker         | fmartinou/whats-up-docker                        | 6.3.0                    |                                                                                                                     |
+| WordPress                | wordpress                                        | 6.4.2                    | [YouTube Video](https://youtu.be/j5M4qlRCbYs)                                                                       | [Docs]                                                                                         |
 
 ## UI How to
 
